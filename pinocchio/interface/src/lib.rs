@@ -6,5 +6,5 @@ pub mod native_mint;
 pub mod state;
 
 pub mod program {
-    pinocchio_pubkey::declare_id!("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA");
+    pinocchio_pubkey::declare_id!("ixCPtHBGeiuHL8uGFvCr2Lr9LYijeBjeRbXJEK7qSPL");
 }

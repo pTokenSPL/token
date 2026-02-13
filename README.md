@@ -6,12 +6,12 @@ A high-performance, zero-allocation reimplementation of the SPL Token program bu
 
 | | Address |
 |---|---|
-| **Program** | [`JsNFnUs9e2vDk3mUR5hjVr69j6JpM4VtoDk7QiZUSPL`](https://solscan.io/account/JsNFnUs9e2vDk3mUR5hjVr69j6JpM4VtoDk7QiZUSPL) |
-| **Token** | [`4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL`](https://solscan.io/token/4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL) |
+| **Program** | [`ixCPtHBGeiuHL8uGFvCr2Lr9LYijeBjeRbXJEK7qSPL`](https://solscan.io/account/ixCPtHBGeiuHL8uGFvCr2Lr9LYijeBjeRbXJEK7qSPL) |
+| **Token (pToken)** | [`fnXaaBMpRWrTykL9GNxTjqVi5rRVyH4mKe9FndfzSPL`](https://solscan.io/token/fnXaaBMpRWrTykL9GNxTjqVi5rRVyH4mKe9FndfzSPL) |
 
 ## Overview
 
-p-token is a drop-in replacement for the SPL Token program that achieves significantly lower compute unit (CU) consumption through:
+p-token is a standalone deployment of the pinocchio token program, modified to run at its own program address rather than the canonical SPL Token address. It achieves significantly lower compute unit (CU) consumption through:
 
 - **`#![no_std]` + zero heap allocation** — the entire program runs without a global allocator
 - **Custom entrypoint with transfer fast-path** — `transfer` and `transfer_checked` (the most common operations) bypass generic account deserialization entirely
@@ -24,7 +24,7 @@ This program is deployed as a [verified build](https://solana.com/docs/programs/
 
 ```sh
 solana-verify verify-from-repo \
-  --program-id JsNFnUs9e2vDk3mUR5hjVr69j6JpM4VtoDk7QiZUSPL \
+  --program-id ixCPtHBGeiuHL8uGFvCr2Lr9LYijeBjeRbXJEK7qSPL \
   https://github.com/pTokenSPL/token \
   --library-name pinocchio_token_program
 ```

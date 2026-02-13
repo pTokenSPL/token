@@ -7,3 +7,4 @@
 node_modules
 test-ledger
 dist
+pinocchio_token_program.so
