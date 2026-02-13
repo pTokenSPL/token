@@ -7,7 +7,8 @@ A high-performance, zero-allocation reimplementation of the SPL Token program bu
 | | Address |
 |---|---|
 | **Program** | [`ixCPtHBGeiuHL8uGFvCr2Lr9LYijeBjeRbXJEK7qSPL`](https://solscan.io/account/ixCPtHBGeiuHL8uGFvCr2Lr9LYijeBjeRbXJEK7qSPL) |
-| **Token (pToken)** | [`fnXaaBMpRWrTykL9GNxTjqVi5rRVyH4mKe9FndfzSPL`](https://solscan.io/token/fnXaaBMpRWrTykL9GNxTjqVi5rRVyH4mKe9FndfzSPL) |
+| **pToken** | [`fnXaaBMpRWrTykL9GNxTjqVi5rRVyH4mKe9FndfzSPL`](https://solscan.io/token/fnXaaBMpRWrTykL9GNxTjqVi5rRVyH4mKe9FndfzSPL) |
+| **SPL Token** | [`4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL`](https://solscan.io/token/4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL) |
 
 ## Overview
 
