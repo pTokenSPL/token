@@ -29,5 +29,5 @@ A high-performance Solana token SDK built on Pinocchio — zero-dependency, clos
 - **SPL Token**: `TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA`
 - **Token-2022**: `TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb`
 - **ATA Program**: `ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJe1bN`
-- **Mereoa**: `4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL`
+- **Meteora**: `4xCUgkuWmpk1gmrcT9PmmCPVY8kFnHKCsMoLsRrNSPL`
 - **pumpswap**: `7hynuVWWjwUPHEqYYYWCDUGctSR8PretCD8AU1F3pump`
